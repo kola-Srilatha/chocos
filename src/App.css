@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 300px;
+  padding: 10px;
+}
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: black;
+  background:cyan;
+}
+
+
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.App-header {
+  background-color:cyan;; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:white;
+}
+.App-link {
+  color: #61dafb;
+}
+.inputtxt {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0,auto;
+  align-items:center;
+  display: inline-block; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.inputsub{
+  width: 100%;
+  background-color:cyan;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputsubh {
+  background-color:cyan;
+}
+.logout {
+  position:fixed;
+   right:10px;
+   top:5px;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color:cyan;
+  color:red;
+}
+
+
